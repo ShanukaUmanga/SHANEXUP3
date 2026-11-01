@@ -10,5 +10,5 @@ app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
 
-// මෙතැනින් ඔබේ මුල් බොට් ෆයිල් එක Run කරයි
+// ඔබේ මුල් බොට් ෆයිල් එක මෙතැනින් ක්‍රියාත්මක වේ
 require('./index.js');

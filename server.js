@@ -3,12 +3,12 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Bot is running!');
+  res.send('Queen-MD WhatsApp Bot is running successfully!');
 });
 
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
 
-// මෙතනින් ඔබේ බොට් ෆයිල් එක Require කර Run කරගන්න පුළුවන් 
+// මෙතැනින් ඔබේ මුල් බොට් ෆයිල් එක Run කරයි
 require('./index.js');
